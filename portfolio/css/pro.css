@@ -1,0 +1,41 @@
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 80vw;
+    height: 900px;
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rebeccapurple; */
+}
+
+.main ul{
+    /* text-align: center; */
+    width: 50%;
+    /* background-color: rebeccapurple; */
+}
+.pro_title{
+    margin-bottom: 30px;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    /* background-color: red; */
+    margin-bottom: 20px;
+}
+
+.mainulreal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerHelper{
+margin-bottom: 200px;
+}
