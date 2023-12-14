@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>layout3</title>
+    <meta charset="utf-8" />
+    <style>
+      #wrap{
+        min-width: 1000px;
+        max-width: 1920px;
+        margin: 0px auto;
+      }
+      body{
+        background-image: url("img/background1.png");
+      }
+       header h1{
+        font-size: 50px;
+      }
+      header ul{
+        display: flex;
+        list-style: none;
+        padding: 0px;
+      }
+      header li{
+        padding: 0px;
+        padding-right: 20px;
+        font-size: 12px;
+      }
+      .short_line{
+        width: 42px;
+        border-top: solid 1px black;
+      }
+     .content_card{
+      width: 310px;
+      background-color: white;
+      box-shadow: 2px 2px 5px lightgrey;
+      /* 가로위치 세로위치 번짐정도 그림자색상 */
+      margin: 20px;
+     }
+     .category{
+      position: absolute; /* 위치지정 : 절대적인 */
+      left: 0px;
+      bottom: 0px;
+      background-color: black;
+      color: white;
+      padding: 5px 15px;
+     }
+     .content_card div:first-child{
+      position: relative;
+      /* relative 부모는 absolute 자식의 기준이 된다. */
+     }
+     .content_card img{
+      display: block;
+     }
+     .content_card>div:last-child{
+      padding: 50px;
+     }
+     .content_card h2{
+      margin-top: 0px;
+     }
+     .content_card>div>div:nth-child(2){
+      color: gray;
+     }
+     .long_line{
+      width: 250px;
+      border-top: dotted 1px gray;
+      margin: 10px 0px;
+     }
+     .content_card p{
+      margin: 0px;
+     }
+     #content{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction:  row;
+      justify-content: center;
+     }
+     footer ul{
+      display: flex;
+      list-style: none;
+      padding: 0px;
+     }
+     footer li{
+      padding-right: 20px;
+     }
+  
+    </style>
+  </head>
+  <body>
+    <div id="wrap"></div>
+      <header>
+        <h1>Gridly.</h1>
+        <div class="short_line"></div>
+        <ul>
+            <li>home</li>
+            <li>digital designs</li>
+            <li>web designs</li>
+            <li>branding/identity</li>
+        </ul>
+        <div class="short_line"></div>
+      </header>
+      <div id="content">
+        <section class="content_card">
+          <div>
+              <img src="img2-1.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Explicabo nisi ab dolorum saepe in, commodi illum id repudiandae
+               eveniet tempore possimus repellat quaerat sequi amet
+               ducimus ullam ratione quasi necessitatibus!
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-2.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-3.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-4.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-5.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-6.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-7.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-8.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-9.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+
+        <section class="content_card">
+          <div>
+              <img src="img2-10.png" />
+              <div class="category">photoshop, design</div>
+          </div>
+          <div>
+            <h2>Dulux Colour Awards</h2>
+            <div>2023.12.01</div>
+            <div class="long_line"></div>
+            <p>
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+            <div class="long_line"></div>
+            <div>Read on</div>
+          </div>
+          
+        </section>
+        <section class="content_card">
+            <div>
+                <img src="img2-11.png" />
+                <div class="category">photoshop, design</div>
+            </div>
+            <div>
+              <h2>Dulux Colour Awards</h2>
+              <div>2023.12.01</div>
+              <div class="long_line"></div>
+              <p>
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              </p>
+              <div class="long_line"></div>
+              <div>Read on</div>
+            </div>
+            
+          </section>
+
+
+        
+      </div>
+      <footer>
+        <div class="short_line"></div>
+          <ul>
+             <li><img src="icon2-1.png"></li>
+             <li><img src="icon2-2.png"></li>
+             <li><img src="icon2-3.png"></li>
+             <li><img src="icon2-4.png"></li>
+          </ul>
+      <div class="short_line"></div>
+      <p>copyright</p>
+    </footer>
+  </body>
+</html>

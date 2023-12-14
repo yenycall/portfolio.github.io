@@ -1,0 +1,38 @@
+
+
+.main{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78vw;
+}
+
+.main_ul_li{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.215);
+    margin: 2px;
+    color:rgb(133, 133, 133);
+    font-size: 40px;
+    text-align:center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.main_ul_li:hover{
+    color:black;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  
+
