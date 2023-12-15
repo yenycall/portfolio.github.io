@@ -100,19 +100,19 @@ header ul {
 .index2>ul>li:first-child {
     float: left;
     font-size: 30px;
-    padding-left: 950px;
+    padding-left: 850px;
 
 }
 .index2 .two:first-child{
-  padding-left: 1135px;
+  padding-left: 1035px;
 
 }
 .index2 .three:first-child{
-  padding-left: 1080px;
+  padding-left: 980px;
 
 }
 .index2 .four:first-child{
-  padding-left: 930px;
+  padding-left: 830px;
 }
 
 a {
